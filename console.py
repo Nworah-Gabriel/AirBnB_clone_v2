@@ -134,7 +134,6 @@ class HBNBCommand(cmd.Cmd):
             except IndexError:
                 value = values[0]
 
-            if key == 'amenity_ids'
             if key in self.types:
                 new_value = self.types[key](value)
                 new_instance.__dict__[key] = new_value
